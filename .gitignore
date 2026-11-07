@@ -1,0 +1,17 @@
+# 个人学习数据与备份导出（不入库）
+ky-english-backup*.json
+backup-*.json
+*备份*.json
+*.json.bak
+*.json.tmp
+
+# 临时文件与本机产物
+.gh-*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 依赖目录（本项目零依赖，仅作预防）
+node_modules/
+.npm/

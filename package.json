@@ -1,0 +1,18 @@
+{
+  "name": "kaoyan-english-selfstudy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "考研英语二个人自学网站 — 零依赖、移动端优先、本地持久化、PWA",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node tools/smoke-test.js",
+    "test:browser": "node tools/browser-test.js",
+    "test:all": "node tools/smoke-test.js && node tools/browser-test.js",
+    "extract": "python tools/extract-words.py",
+    "icons": "node tools/make-icons.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
